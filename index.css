@@ -1,0 +1,61 @@
+#cab {
+    background-color: #413b6b;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 10px;
+    padding: 15px 15px;
+}
+
+#sobrecab {
+    display: flow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#nomecab {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6f95ff;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+#descrcab {
+    font-size: 20px;
+    color: #6f95ff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.links {
+    font-size: 17px;
+    color: #6f95ff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    color: #5c65c0;
+}
+
+#intro {
+    background-color: #6f95ff;
+    display: flow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome {
+    color: #1c0b2b;
+    font-size: 70px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+#descr {
+    color: #1c0b2b;
+    font-size: 20px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
