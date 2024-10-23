@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.cab {
+    background-color: #3a352f;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px 10px;
+    padding: 10px 10px;
+}
+
+.sobrecab {
+    display: flow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomecab {
+    font-size: 20px;
+    font-weight: bold;
+    color: #80d3bb;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+}
+
+.descrcab {
+    font-size: 20px;
+    color: #80d3bb;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.links {
+    font-size: 17px;
+    color: #80d3bb;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    color: #e5f3ba;
+}
+
+.info {
+    background-color: #80d3bb;
+    display: flex;
+    text-align: justify;
+    justify-content: justify;
+    align-items: justify;
+    padding-bottom: 110px;
+}
+
+.texto {
+    display: block;
+    padding-right: 100px;
+}
+
+.título {
+    color: #3a352f;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-left: 65px;
+}

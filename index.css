@@ -80,7 +80,7 @@ a:hover {
     padding: 10px 30px;
 }
 
-.botão {
+.botãoprin {
     background-color: #3a352f;
     font-size: 22px;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
@@ -91,7 +91,7 @@ a:hover {
     border-radius: 12px;
 }
 
-.botão:hover {
+.botãoprin:hover {
     background-color: #e5f3ba;
     color: #3a352f;
     border: 5px solid #3a352f;
@@ -104,6 +104,7 @@ a:hover {
     justify-content: center;
     grid-gap: 10px 10px;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #titulsobre {
@@ -119,4 +120,23 @@ a:hover {
     font-size: 22px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #3a352f;
+    padding-bottom: 20px;
+}
+
+.botãosec {
+    background-color: #3a352f;
+    font-size: 22px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #bafdc2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-left: 65px;
+}
+
+.botãosec:hover {
+    background-color: #bafdc2;
+    color: #3a352f;
+    border: 5px solid #3a352f;
 }
