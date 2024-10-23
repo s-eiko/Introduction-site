@@ -1,12 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 #cab {
-    background-color: #413b6b;
+    background-color: #3a352f;
     display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
 }
 
 #sobrecab {
@@ -19,43 +24,99 @@
 #nomecab {
     font-size: 20px;
     font-weight: bold;
-    color: #6f95ff;
+    color: #e5f3ba;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 
 }
 
 #descrcab {
     font-size: 20px;
-    color: #6f95ff;
+    color: #e5f3ba;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .links {
     font-size: 17px;
-    color: #6f95ff;
+    color: #e5f3ba;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 a:hover {
-    color: #5c65c0;
+    color: #80d3bb;
 }
 
 #intro {
-    background-color: #6f95ff;
-    display: flow;
+    background-color: #e5f3ba;
+    display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 110px;
 }
 
 #nome {
-    color: #1c0b2b;
+    color: #3a352f;
     font-size: 70px;
+    font-weight: bold;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+}
+
+#subt {
+    color: #3a352f;
+    font-size: 30px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
 #descr {
-    color: #1c0b2b;
-    font-size: 20px;
+    color: #3a352f;
+    font-size: 22px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 75px;
+    padding: 10px 30px;
+}
+
+.botão {
+    background-color: #3a352f;
+    font-size: 22px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #e5f3ba;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.botão:hover {
+    background-color: #e5f3ba;
+    color: #3a352f;
+    border: 5px solid #3a352f;
+}
+
+#info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #bafdc2;
+    justify-content: center;
+    grid-gap: 10px 10px;
+    padding-top: 100px;
+}
+
+#titulsobre {
+    padding-left: 65px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #3a352f;
+    font-size: 30px;
+
+}
+
+#sobre {
+    padding-left: 65px;
+    font-size: 22px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #3a352f;
 }
