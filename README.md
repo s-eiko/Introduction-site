@@ -7,5 +7,5 @@ Site profissional de uma psicóloga fictícia, contendo páginas para contato, b
 - Mariana Seiko Fukuoka
 - Taynara Carneiro dos Santos
 - João Paulo Pelegrini de Lunes
-- Cauâ Felipe Delfim
+- Cauã Felipe Delfim
 - Pedro Henrique Borges Adão
