@@ -1,9 +1,11 @@
+/* Configurando html e body */
 html, body {
     margin: 0;
     padding: 0;
     background-color: #bafdc2;
 }
 
+/* Div do cabeçalho */
 #cab {
     background-color: #3a352f;
     display: grid;
@@ -15,37 +17,42 @@ html, body {
     padding: 10px 10px;
 }
 
+/* Div do nome e profissão, dentro do cabeçalho */
 #sobrecab {
-    display: flow;
+    display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
+/* Nome da div sobrecab */
 #nomecab {
     font-size: 20px;
     font-weight: bold;
     color: #e5f3ba;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-
 }
 
+/* Descrição da profissão da div sobrecab */
 #descrcab {
     font-size: 20px;
     color: #e5f3ba;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* Links do cabeçalho */
 .links {
     font-size: 17px;
     color: #e5f3ba;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-a:hover {
+/* Links do cabeçalho quando o mouse passa por cima */
+.links:hover {
     color: #80d3bb;
 }
 
+/* Div da introdução do profissional */
 #intro {
     background-color: #e5f3ba;
     display: block;
@@ -53,8 +60,12 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 110px;
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
+/* Nome da div intro */
 #nome {
     color: #3a352f;
     font-size: 70px;
@@ -62,9 +73,9 @@ a:hover {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 60px;
 }
 
+/* Subtítulo do nome da div intro */
 #subt {
     color: #3a352f;
     font-size: 30px;
@@ -73,14 +84,15 @@ a:hover {
     margin-bottom: 50px;
 }
 
+/* Descrição do profissional da div intro */
 #descr {
     color: #3a352f;
     font-size: 22px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin-bottom: 75px;
-    padding: 10px 30px;
+    margin: 65px 0px;
 }
 
+/* Botão principal para marcar consulta */
 .botãoprin {
     background-color: #3a352f;
     font-size: 22px;
@@ -92,37 +104,39 @@ a:hover {
     border-radius: 12px;
 }
 
+/* Botão principal quando o mouse passar por cima */
 .botãoprin:hover {
     background-color: #e5f3ba;
     color: #3a352f;
     border: 5px solid #3a352f;
 }
 
+/* Div de informações adicionais do profissional */
 #info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     grid-gap: 10px 10px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 65px;
 }
 
+/* Título do "sobre mim" da div info */
 #titulsobre {
-    padding-left: 65px;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     color: #3a352f;
     font-size: 30px;
 
 }
 
+/* Parágrafo "sobre mim" da div info */
 #sobre {
-    padding-left: 65px;
     font-size: 22px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #3a352f;
     padding-bottom: 20px;
 }
 
+/* Botão secundário para marcar consulta */
 .botãosec {
     background-color: #3a352f;
     font-size: 22px;
@@ -132,9 +146,9 @@ a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 12px;
-    margin-left: 65px;
 }
 
+/* Botão secundário quando o mouse passa por cima */
 .botãosec:hover {
     background-color: #bafdc2;
     color: #3a352f;

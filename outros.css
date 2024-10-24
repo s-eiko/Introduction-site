@@ -1,9 +1,11 @@
+/* Configurando html e body */
 html, body {
     margin: 0;
     padding: 0;
     background-color: #80d3bb;
 }
 
+/* Div do cabeçalho */
 .cab {
     background-color: #3a352f;
     display: grid;
@@ -15,51 +17,61 @@ html, body {
     padding: 10px 10px;
 }
 
+/* Div do nome e profissão, dentro do cabeçalho */
 .sobrecab {
-    display: flow;
+    display: block;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
+/* Nome da div sobrecab */
 .nomecab {
     font-size: 20px;
     font-weight: bold;
     color: #80d3bb;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-
 }
 
+/* Descrição da profissão da div sobrecab */
 .descrcab {
     font-size: 20px;
     color: #80d3bb;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* Links do cabeçalho */
 .links {
     font-size: 17px;
     color: #80d3bb;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-a:hover {
+/* Links do cabeçalho quando o mouse passa por cima */
+.links:hover {
     color: #e5f3ba;
 }
 
+/* Div de informações do endereço */
 .info {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     text-align: justify;
     justify-content: justify;
     align-items: justify;
     padding-bottom: 110px;
     padding-top: 60px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
+/* Div de informações em texto do endereço */
 .texto {
     display: block;
-    padding-right: 100px;
+    margin-right: 100px;
 }
 
+/* Título do endereço */
 .título {
     color: #3a352f;
     font-size: 50px;
@@ -67,18 +79,18 @@ a:hover {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 65px;
 }
 
+/* Parágrafo do endereço */
 .parag {
     color: #3a352f;
     font-size: 20px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    padding-left: 65px;
     margin-bottom: 45px;
 }
 
-.botãosec {
+/* Botões de endereço */
+.botão {
     background-color: #3a352f;
     font-size: 22px;
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
@@ -87,11 +99,23 @@ a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 12px;
-    margin-left: 65px;
+    margin-right: 20px;
 }
 
-.botãosec:hover {
+/* Botões quando o mouse passa por cima */
+.botão:hover {
     background-color: #80d3bb;
     color: #3a352f;
     border: 5px solid #3a352f;
+}
+
+#maps {
+    position: absolute;
+    right: 65px;
+}
+
+#imagem {
+    position: absolute;
+    right: 65px;
+    width: 40%;
 }

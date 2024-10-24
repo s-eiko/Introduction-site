@@ -1,0 +1,49 @@
+/* Configurando html e body */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #80d3bb;
+}
+
+/* Div do cabeçalho */
+.cab {
+    background-color: #3a352f;
+    padding: 54px 10px;
+}
+
+/* Links do cabeçalho */
+.links {
+    font-size: 20px;
+    color: #80d3bb;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: absolute;
+    right: 65px;
+    top: 40px;
+}
+
+/* Links do cabeçalho quando o mouse passa por cima */
+.links:hover {
+    color: #e5f3ba;
+}
+
+/* Título do formulário */
+#título {
+    color: #3a352f;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+/* Div de informações do endereço */
+#formulário {
+    display: block;
+    text-align: justify;
+    justify-content: justify;
+    align-items: justify;
+    padding-bottom: 110px;
+    padding-top: 60px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
