@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #80d3bb;
 }
 
 .cab {
@@ -46,12 +47,12 @@ a:hover {
 }
 
 .info {
-    background-color: #80d3bb;
     display: flex;
     text-align: justify;
     justify-content: justify;
     align-items: justify;
     padding-bottom: 110px;
+    padding-top: 60px;
 }
 
 .texto {
@@ -66,6 +67,31 @@ a:hover {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 60px;
     padding-left: 65px;
+}
+
+.parag {
+    color: #3a352f;
+    font-size: 20px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-left: 65px;
+    margin-bottom: 45px;
+}
+
+.botãosec {
+    background-color: #3a352f;
+    font-size: 22px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    color: #80d3bb;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-left: 65px;
+}
+
+.botãosec:hover {
+    background-color: #80d3bb;
+    color: #3a352f;
+    border: 5px solid #3a352f;
 }

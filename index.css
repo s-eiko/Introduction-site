@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #bafdc2;
 }
 
 #cab {
@@ -100,7 +101,6 @@ a:hover {
 #info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #bafdc2;
     justify-content: center;
     grid-gap: 10px 10px;
     padding-top: 100px;
