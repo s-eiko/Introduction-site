@@ -7,7 +7,7 @@ html, body {
 
 /* Div do cabeçalho */
 #cab {
-    background-color: #3a352f;
+    background-color: hsl(33, 10%, 21%);
     display: grid;
     text-align: center;
     justify-content: center;
