@@ -3,6 +3,8 @@
 ## Sobre
 Site profissional de uma psicóloga fictícia, contendo páginas para contato, blog e marcar consulta, além de apresentar a profissional de forma a atrair clientes. Trabalho realizado para a matéria de engenharia de software.
 
+Acesse em: https://s-eiko.github.io/P2-EngSoftwareI/
+
 ## Membros
 - Mariana Seiko Fukuoka
 - Taynara Carneiro dos Santos
